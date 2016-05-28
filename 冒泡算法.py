@@ -2,7 +2,7 @@ import random
 
 list_data = []
 for i in range(10):
-    list_data.append(random.randint(0, 20))
+    list_data.append(random.randint(0, 100))
 print(list_data)
 
 list_len = len(list_data) - 1
