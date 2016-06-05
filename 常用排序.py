@@ -1,6 +1,8 @@
 import random
 
 
+
+
 def BubbleSort(num):
     n = len(num)
     for i in range(0, n):
@@ -18,7 +20,6 @@ def SelectSort(num):
                 mindex = j
         num[mindex], num[i] = num[i], num[mindex]
     return num
-
 
 def InsertSort(num):
     for i in range(1, len(num)):
@@ -63,7 +64,6 @@ def QuickSort(num):
     return QuickSort(less) + [p] + QuickSort(greater)
 
 
-############################################################
 def InsertIntoHeap(x, heap):
     if len(heap) == 0:
         heap = [x]
